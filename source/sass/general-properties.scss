@@ -1,7 +1,10 @@
-@mixin list-fix() {
+$min-bogy: 900px;
+
+@mixin button-fix() {
   margin: 0;
   padding: 0;
-  list-style: none;
+  border: none;
+  background-color: transparent;
 }
 
 @mixin input-cut() {
@@ -29,3 +32,40 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+// html {
+//   overflow-x: hidden;
+// }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1150px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// .age-hexagon__hex-text {
+//   display: grid;
+//   grid-template-columns: 42px 42px 42px;
+//   row-gap: 10px;
+// }
+
+// .age-hexagon__hex-age {
+//   width: 30px;
+// }
+
+// .lines-graph__ages-container {
+//   background-color: cadetblue;
+//   display: flex;
+//   ;
+//   justify-content: space-between;
+// }

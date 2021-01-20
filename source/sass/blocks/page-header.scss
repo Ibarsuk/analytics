@@ -1,0 +1,11 @@
+.page-header {
+    background-color: var(--blue);
+    padding-top: 50px;
+}
+
+.page-header__width-container {
+    display: flex;
+    ;
+    justify-content: space-between;
+    align-items: center;
+}

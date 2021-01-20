@@ -1,0 +1,13 @@
+.map-graph {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/map-bg.png");
+    position: relative;
+}
+
+.map-graph__img {
+    position: absolute;
+    width: 79%;
+    top: 22%;
+    left: 13%;
+}

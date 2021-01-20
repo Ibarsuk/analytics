@@ -1,0 +1,71 @@
+.age-vertical-chart {
+    width: 100%;
+    height: 100%;
+}
+
+.age-vertical-chart__graphs-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 17' fill='none'%3E%3Crect x='0.715332' y='0.74585' width='0.399405' height='1000' transform='rotate(-90 0.715332 0.74585)' fill='%23EEEEF7'/%3E%3Crect x='0.715332' y='16.6755' width='0.0390625' height='0.0464888' fill='%23C4C4C4'/%3E%3C/svg%3E");
+}
+
+.age-vertical-chart__chart-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2em;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.age-vertical-chart__graph-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    order: -1;
+    margin-bottom: 0.85em;
+}
+
+.age-vertical-chart__graph {
+    display: block;
+    width: 2em;
+    height: 7em;
+    background-color: var(--chart-blue);
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+
+    &:first-child {
+        background-color: var(--red);
+        margin-right: 0.5em;
+    }
+
+    &--first {
+        height: 11em;
+    }
+
+    &--second {
+        height: 7em;
+    }
+
+    &--third {
+        height: 4em;
+    }
+
+    &--fourth {
+        height: 15em;
+    }
+
+    &--fifth {
+        height: 9em;
+    }
+
+    &--sixth {
+        height: 2em;
+    }
+}

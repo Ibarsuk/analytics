@@ -1,0 +1,41 @@
+.calendar {
+    width: 100%;
+    height: 100%;
+}
+
+.calendar__table {
+    width: 100%;
+    height: 100%;
+}
+
+.calendar__day-name {
+    text-align: center;
+}
+
+.calendar__day-number {
+    min-width: 10px;
+    color: var(--blue);
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    
+    &--circled {
+        color: var(--white);
+    }
+
+    &--circled::before {
+        content: "";
+        top: 9%;
+        left: 21%;
+        position: absolute;
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        background-color: var(--chart-blue);
+        z-index: -1;
+    }
+
+    &--circled-different::before {
+        background-color: var(--red);
+    }
+}

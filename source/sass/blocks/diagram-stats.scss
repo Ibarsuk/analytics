@@ -1,0 +1,21 @@
+.diagram-stats {
+    box-sizing: border-box;
+    width: 17.5%;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.diagram-stats__percents {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 2.5em;
+    color: var(--chart-blue);
+
+    &--different {
+        color: var(--red);
+    }
+}
