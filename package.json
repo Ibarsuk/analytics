@@ -3,7 +3,7 @@
   "private": true,
   "description": "Учебный проект для верстки 'analytics'",
   "scripts": {
-    "build": "gulp styles",
+    "build": "gulp build",
     "start": "gulp start"
   },
   "dependencies": {

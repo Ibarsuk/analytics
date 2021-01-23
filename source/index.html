@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="css/styles.min.css">
   </head>
   <body class="page-body">
+      <div class="page-body__sprite" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <symbol id="facebook-icon" viewBox="0 0 10 20">
+                <path d="M2.5 6.66667H0V10H2.5V20H6.66667V10H9.66667L10 6.66667H6.66667V5.25C6.66667 4.5 6.83333 4.16667 7.58333 4.16667H10V0H6.83333C3.83333 0 2.5 1.33333 2.5 3.83333V6.66667Z"/>
+            </symbol>
+            <symbol id="instagram-icon" viewBox="0 0 21 20">
+                <path d="M10.6086 1.83333C13.2753 1.83333 13.6086 1.83333 14.692 1.91667C17.442 2 18.692 3.33333 18.7753 6C18.8586 7.08333 18.8586 7.33333 18.8586 10C18.8586 12.6667 18.8586 13 18.7753 14C18.692 16.6667 17.3586 18 14.692 18.0833C13.6086 18.1667 13.3586 18.1667 10.6086 18.1667C7.94198 18.1667 7.60864 18.1667 6.60864 18.0833C3.85864 18 2.60864 16.6667 2.52531 14C2.44198 12.9167 2.44198 12.6667 2.44198 10C2.44198 7.33333 2.44198 7 2.52531 6C2.60864 3.33333 3.94198 2 6.60864 1.91667C7.60864 1.83333 7.94198 1.83333 10.6086 1.83333ZM10.6086 0C7.85864 0 7.52531 0 6.52531 0.0833333C2.85864 0.25 0.858643 2.25 0.691976 5.91667C0.608643 6.91667 0.608643 7.25 0.608643 10C0.608643 12.75 0.608643 13.0833 0.691976 14.0833C0.858643 17.75 2.85864 19.75 6.52531 19.9167C7.52531 20 7.85864 20 10.6086 20C13.3586 20 13.692 20 14.692 19.9167C18.3586 19.75 20.3586 17.75 20.5253 14.0833C20.6086 13.0833 20.6086 12.75 20.6086 10C20.6086 7.25 20.6086 6.91667 20.5253 5.91667C20.3586 2.25 18.3586 0.25 14.692 0.0833333C13.692 0 13.3586 0 10.6086 0ZM10.6086 4.83333C7.77531 4.83333 5.44198 7.16667 5.44198 10C5.44198 12.8333 7.77531 15.1667 10.6086 15.1667C13.442 15.1667 15.7753 12.8333 15.7753 10C15.7753 7.16667 13.442 4.83333 10.6086 4.83333ZM10.6086 13.3333C8.77531 13.3333 7.27531 11.8333 7.27531 10C7.27531 8.16667 8.77531 6.66667 10.6086 6.66667C12.442 6.66667 13.942 8.16667 13.942 10C13.942 11.8333 12.442 13.3333 10.6086 13.3333ZM15.942 3.5C15.2753 3.5 14.7753 4 14.7753 4.66667C14.7753 5.33333 15.2753 5.83333 15.942 5.83333C16.6086 5.83333 17.1086 5.33333 17.1086 4.66667C17.1086 4 16.6086 3.5 15.942 3.5Z"/>
+            </symbol>
+            <symbol id="twitter-icon" viewBox="0 0 25 20">
+                <path d="M7.7392 20C17.0259 20 22.1045 12.3061 22.1045 5.63472C22.1045 5.41612 22.1 5.19865 22.0899 4.98202C23.0757 4.26942 23.9327 3.37993 24.6086 2.36786C23.704 2.76978 22.7306 3.04043 21.7093 3.16246C22.7516 2.53747 23.5521 1.54834 23.9296 0.369453C22.9539 0.947983 21.8736 1.36838 20.7238 1.59509C19.8021 0.613796 18.49 0 17.0382 0C14.2497 0 11.9885 2.26122 11.9885 5.04835C11.9885 5.44467 12.033 5.8298 12.1192 6.19953C7.92337 5.98878 4.20253 3.97946 1.71264 0.924752C1.27853 1.67066 1.02859 2.53775 1.02859 3.46222C1.02859 5.21376 1.92004 6.76015 3.27554 7.66503C2.44735 7.63956 1.66926 7.41173 0.988846 7.03332C0.987727 7.05431 0.987727 7.07558 0.987727 7.09769C0.987727 9.54308 2.72835 11.5846 5.03827 12.0472C4.61424 12.1628 4.1681 12.225 3.7074 12.225C3.38217 12.225 3.0659 12.1925 2.7583 12.134C3.40093 14.1397 5.26498 15.5996 7.47498 15.6407C5.74667 16.9951 3.5697 17.802 1.20436 17.802C0.797123 17.802 0.395203 17.7788 0 17.7321C2.23435 19.164 4.88741 20 7.7392 20Z"/>
+            </symbol>
+        </svg>
+      </div>
       <header class="page-header">
           <div class="page-header__width-container container">
               <nav class="header__main-nav main-nav">
@@ -27,24 +40,24 @@
                     </svg>
                   </a>
                 </div>
-                <ul class="main-nav__link-list">
-                  <li class="main-nav__link-list-item">
-                    <a href="#" class="main-nav__link">
+                <ul class="main-nav__link-list navigation-list">
+                  <li class="navigation-list__link-list-item">
+                    <a href="#" class="navigation-list__link">
                       Products
                     </a>
                   </li>
-                  <li class="main-nav__link-list-item">
-                    <a href="#" class="main-nav__link">
+                  <li class="navigation-list__link-list-item">
+                    <a href="#" class="navigation-list__link">
                       Pricing
                     </a>
                   </li>
-                  <li class="main-nav__link-list-item">
-                    <a href="#" class="main-nav__link">
+                  <li class="navigation-list__link-list-item">
+                    <a href="#" class="navigation-list__link">
                       FAQ
                     </a>
                   </li>
-                  <li class="main-nav__link-list-item">
-                    <a href="#" class="main-nav__link">
+                  <li class="navigation-list__link-list-item">
+                    <a href="#" class="navigation-list__link">
                       Blog
                     </a>
                   </li>
@@ -367,274 +380,284 @@
             </div>
         </section>
         <section class="page-main__functionality functionality">
-            <h2 class="visually-hidden">Functionality</h2>
-            <ul class="functionality__functions-list">
-                <li class="functionality__functions-list-item">
-                    <div class="functionality__function-text-container">
-                        <h3 class="functionality__function-title">
-                            Automated Reports & Widget Alerts
-                        </h3>
-                        <p class="functionality__function-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
-                        </p>
-                    </div>
-                    <article class="functionality__stats-card age-hexagon">
-                        <h3 class="age-hexagon__title visually-hidden">Age hexagon stats</h3>
-                        <div class="age-hexagon__hex-container">
-                            <svg class="age-hexagon__hex-img" xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none">
-                                <path d="M7.69151 26.11L51.2206 0.978405L94.7497 26.1099V76.3731L51.2206 101.505L7.69151 76.373V26.11Z" stroke="#EEEEF7" stroke-width="0.798808"/>
-                                <path d="M22.9108 34.8968L51.2206 18.5521L79.5304 34.8968V67.5861L51.2206 83.9308L22.9108 67.5861V34.8968Z" stroke="#EEEEF7" stroke-width="0.798808"/>
-                                <path d="M28.2201 38.0673L51.3657 19.0062L84.0035 31.8282L86.3405 70.9733L51.3585 91.7681L25.6894 64.9322L28.2201 38.0673Z" stroke="#0088F0" stroke-width="1.59762"/>
-                                <path d="M17.8789 32.2267L50.9656 13.952L69.2894 41.2428L81.3524 68.8152H51.33L30.3676 62.9591L17.8789 32.2267Z" stroke="#EF2A82" stroke-width="1.59762"/>
-                                <path d="M41.5891 45.6808L51.2207 40.12L60.8522 45.6808V56.8023L51.2207 62.363L41.5891 56.8023V45.6808Z" stroke="#EEEEF7" stroke-width="0.798808"/>
-                            </svg>
-                            <div class="age-hexagon__hex-text">
-                                <span class="age-hexagon__hex-age">18-24</span>
-                                <span class="age-hexagon__hex-age">65+</span>
-                                <span class="age-hexagon__hex-age">25-34</span>
-                                <span class="age-hexagon__hex-age">55-64</span>
-                                <span class="age-hexagon__hex-age">35-44</span>
-                                <span class="age-hexagon__hex-age">45-54</span>
-                            </div>
-                            <ul class="age-hexagon__stats-list diagram-stats">
-                                <li class="age-hexagon__stats-list-item diagram-stats__stats-item">
-                                    <p class="age-hexagon__percents  diagram-stats__percents diagram-stats__percents--different">34%</p>
-                                    <span class="age-hexagon__option diagram-stats__option">option 1</span>
-                                </li>
-                                <li class="age-hexagon__stats-list-item diagram-stats__stats-item">
-                                    <p class="age-hexagon__percents diagram-stats__percents">29%</p>
-                                    <span class="age-hexagon__option diagram-stats__option">option 2</span>
-                                </li>
-                            </ul>
+            <div class="functionality__width-container container">
+                <h2 class="visually-hidden">Functionality</h2>
+                <ul class="functionality__functions-list">
+                    <li class="functionality__functions-list-item">
+                        <div class="functionality__function-text-container">
+                            <h3 class="functionality__function-title">
+                                Automated Reports & Widget Alerts
+                            </h3>
+                            <p class="functionality__function-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                            </p>
                         </div>
-                    </article>
-                </li>
-                <li class="functionality__functions-list-item">
-                    <div class="functionality__function-text-container">
-                        <h3 class="functionality__function-title">
-                            Fully customizable to address your needs 
-                        </h3>
-                        <p class="functionality__function-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
-                        </p>
-                    </div>
-                    <article class="functionality__stats-card age-horizontal-chart">
-                        <h3 class="age-horizontal-chart__title visually-hidden">Horizontal chart stats</h3>
-                        <ul class="age-horizontal-chart__chart-list">
-                            <li class="age-horizontal-chart__chart-list-item">
-                                <span class="age-horizontal-chart__age">54-65</span>
-                                <div class="age-horizontal-chart__graph-container">
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--first"></span>
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--second"></span>
+                        <div class="functionality__stats-card-container">
+                            <article class="functionality__stats-card age-hexagon">
+                                <h3 class="age-hexagon__title visually-hidden">Age hexagon stats</h3>
+                                <div class="age-hexagon__hex-container">
+                                    <svg class="age-hexagon__hex-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 102" fill="none">
+                                        <path d="M7.69151 26.11L51.2206 0.978405L94.7497 26.1099V76.3731L51.2206 101.505L7.69151 76.373V26.11Z" stroke="#EEEEF7" stroke-width="0.798808"/>
+                                        <path d="M22.9108 34.8968L51.2206 18.5521L79.5304 34.8968V67.5861L51.2206 83.9308L22.9108 67.5861V34.8968Z" stroke="#EEEEF7" stroke-width="0.798808"/>
+                                        <path d="M28.2201 38.0673L51.3657 19.0062L84.0035 31.8282L86.3405 70.9733L51.3585 91.7681L25.6894 64.9322L28.2201 38.0673Z" stroke="#0088F0" stroke-width="1.59762"/>
+                                        <path d="M17.8789 32.2267L50.9656 13.952L69.2894 41.2428L81.3524 68.8152H51.33L30.3676 62.9591L17.8789 32.2267Z" stroke="#EF2A82" stroke-width="1.59762"/>
+                                        <path d="M41.5891 45.6808L51.2207 40.12L60.8522 45.6808V56.8023L51.2207 62.363L41.5891 56.8023V45.6808Z" stroke="#EEEEF7" stroke-width="0.798808"/>
+                                    </svg>
+                                    <div class="age-hexagon__hex-text">
+                                        <span class="age-hexagon__hex-age">18-24</span>
+                                        <span class="age-hexagon__hex-age">65+</span>
+                                        <span class="age-hexagon__hex-age">25-34</span>
+                                        <span class="age-hexagon__hex-age">55-64</span>
+                                        <span class="age-hexagon__hex-age">35-44</span>
+                                        <span class="age-hexagon__hex-age">45-54</span>
+                                    </div>
+                                    <ul class="age-hexagon__stats-list diagram-stats">
+                                        <li class="age-hexagon__stats-list-item diagram-stats__stats-item">
+                                            <p class="age-hexagon__percents  diagram-stats__percents diagram-stats__percents--different">34%</p>
+                                            <span class="age-hexagon__option diagram-stats__option">option 1</span>
+                                        </li>
+                                        <li class="age-hexagon__stats-list-item diagram-stats__stats-item">
+                                            <p class="age-hexagon__percents diagram-stats__percents">29%</p>
+                                            <span class="age-hexagon__option diagram-stats__option">option 2</span>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </li>
-                            <li class="age-horizontal-chart__chart-list-item">
-                                <span class="age-horizontal-chart__age">45-54</span>
-                                <div class="age-horizontal-chart__graph-container">
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--third"></span>
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--fouth"></span>
-                                </div>
-                            </li>
-                            <li class="age-horizontal-chart__chart-list-item">
-                                <span class="age-horizontal-chart__age">35-44</span>
-                                <div class="age-horizontal-chart__graph-container">
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--fifth"></span>
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--sixth"></span>
-                                </div>
-                            </li>
-                            <li class="age-horizontal-chart__chart-list-item">
-                                <span class="age-horizontal-chart__age">25-34</span>
-                                <div class="age-horizontal-chart__graph-container">
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--seventh"></span>
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--eighth"></span>
-                                </div>
-                            </li>
-                            <li class="age-horizontal-chart__chart-list-item">
-                                <span class="age-horizontal-chart__age">18-24</span>
-                                <div class="age-horizontal-chart__graph-container">
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--ninth"></span>
-                                    <span class="age-horizontal-chart__graph age-horizontal-chart__graph--tenth"></span>
-                                </div>
-                            </li>
-                        </ul>
-                    </article>
-                </li>
-                <li class="functionality__functions-list-item">
-                    <div class="functionality__function-text-container">
-                        <h3 class="functionality__function-title">
-                            Pre-built Dashboard Templates
-                        </h3>
-                        <p class="functionality__function-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
-                        </p>
-                    </div>
-                    <article class="functionality__stats-card calendar">
-                        <h3 class="calendar__title visually-hidden">Age calendar graph</h3>
-                        <table class="calendar__table">
-                            <tr>
-                                <th class="calendar__day-name">Mon</th>
-                                <th class="calendar__day-name">Tue</th>
-                                <th class="calendar__day-name">Wed</th>
-                                <th class="calendar__day-name">Thu</th>
-                                <th class="calendar__day-name">Fri</th>
-                                <th class="calendar__day-name">Sat</th>
-                                <th class="calendar__day-name">Sun</th>
-                            </tr>
-                            <tr>
-                                <td class="calendar__day-number"></td>
-                                <td class="calendar__day-number">1</td>
-                                <td class="calendar__day-number">2</td>
-                                <td class="calendar__day-number">3</td>
-                                <td class="calendar__day-number">4</td>
-                                <td class="calendar__day-number">5</td>
-                                <td class="calendar__day-number">6</td>
-                            </tr>
-                            <tr>
-                                <td class="calendar__day-number">7</td>
-                                <td class="calendar__day-number calendar__day-number--circled">8</td>
-                                <td class="calendar__day-number calendar__day-number--circled">9</td>
-                                <td class="calendar__day-number calendar__day-number--circled">10</td>
-                                <td class="calendar__day-number">11</td>
-                                <td class="calendar__day-number">12</td>
-                                <td class="calendar__day-number">13</td>
-                            </tr>
-                            <tr>
-                                <td class="calendar__day-number">14</td>
-                                <td class="calendar__day-number">15</td>
-                                <td class="calendar__day-number">16</td>
-                                <td class="calendar__day-number">17</td>
-                                <td class="calendar__day-number calendar__day-number--circled calendar__day-number--circled-different">18</td>
-                                <td class="calendar__day-number">19</td>
-                                <td class="calendar__day-number">20</td>
-                            </tr>
-                            <tr>
-                                <td class="calendar__day-number">21</td>
-                                <td class="calendar__day-number">22</td>
-                                <td class="calendar__day-number">23</td>
-                                <td class="calendar__day-number">24</td>
-                                <td class="calendar__day-number">25</td>
-                                <td class="calendar__day-number">26</td>
-                                <td class="calendar__day-number">27</td>
-                            </tr>
-                            <tr>
-                                <td class="calendar__day-number">28</td>
-                                <td class="calendar__day-number">29</td>
-                                <td class="calendar__day-number">30</td>
-                                <td class="calendar__day-number">31</td>
-                                <td class="calendar__day-number"></td>
-                                <td class="calendar__day-number"></td>
-                                <td class="calendar__day-number"></td>
-                            </tr>
-                        </table>
-                    </article>
-                </li>
-            </ul>
+                            </article>
+                        </div>
+                    </li>
+                    <li class="functionality__functions-list-item">
+                        <div class="functionality__function-text-container">
+                            <h3 class="functionality__function-title">
+                                Fully customizable to address your needs 
+                            </h3>
+                            <p class="functionality__function-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                            </p>
+                        </div>
+                        <div class="functionality__stats-card-container">
+                            <article class="functionality__stats-card age-horizontal-chart">
+                                <h3 class="age-horizontal-chart__title visually-hidden">Horizontal chart stats</h3>
+                                <ul class="age-horizontal-chart__chart-list">
+                                    <li class="age-horizontal-chart__chart-list-item">
+                                        <span class="age-horizontal-chart__age">54-65</span>
+                                        <div class="age-horizontal-chart__graph-container">
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--first"></span>
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--second"></span>
+                                        </div>
+                                    </li>
+                                    <li class="age-horizontal-chart__chart-list-item">
+                                        <span class="age-horizontal-chart__age">45-54</span>
+                                        <div class="age-horizontal-chart__graph-container">
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--third"></span>
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--fouth"></span>
+                                        </div>
+                                    </li>
+                                    <li class="age-horizontal-chart__chart-list-item">
+                                        <span class="age-horizontal-chart__age">35-44</span>
+                                        <div class="age-horizontal-chart__graph-container">
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--fifth"></span>
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--sixth"></span>
+                                        </div>
+                                    </li>
+                                    <li class="age-horizontal-chart__chart-list-item">
+                                        <span class="age-horizontal-chart__age">25-34</span>
+                                        <div class="age-horizontal-chart__graph-container">
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--seventh"></span>
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--eighth"></span>
+                                        </div>
+                                    </li>
+                                    <li class="age-horizontal-chart__chart-list-item">
+                                        <span class="age-horizontal-chart__age">18-24</span>
+                                        <div class="age-horizontal-chart__graph-container">
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--ninth"></span>
+                                            <span class="age-horizontal-chart__graph age-horizontal-chart__graph--tenth"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+                    </li>
+                    <li class="functionality__functions-list-item">
+                        <div class="functionality__function-text-container">
+                            <h3 class="functionality__function-title">
+                                Pre-built Dashboard Templates
+                            </h3>
+                            <p class="functionality__function-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                            </p>
+                        </div>
+                        <div class="functionality__stats-card-container">
+                            <article class="functionality__stats-card calendar">
+                                <h3 class="calendar__title visually-hidden">Age calendar graph</h3>
+                                <table class="calendar__table">
+                                    <tr>
+                                        <th class="calendar__day-name">Mon</th>
+                                        <th class="calendar__day-name">Tue</th>
+                                        <th class="calendar__day-name">Wed</th>
+                                        <th class="calendar__day-name">Thu</th>
+                                        <th class="calendar__day-name">Fri</th>
+                                        <th class="calendar__day-name">Sat</th>
+                                        <th class="calendar__day-name">Sun</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="calendar__day-number"></td>
+                                        <td class="calendar__day-number">1</td>
+                                        <td class="calendar__day-number">2</td>
+                                        <td class="calendar__day-number">3</td>
+                                        <td class="calendar__day-number">4</td>
+                                        <td class="calendar__day-number">5</td>
+                                        <td class="calendar__day-number">6</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="calendar__day-number">7</td>
+                                        <td class="calendar__day-number calendar__day-number--circled">8</td>
+                                        <td class="calendar__day-number calendar__day-number--circled">9</td>
+                                        <td class="calendar__day-number calendar__day-number--circled">10</td>
+                                        <td class="calendar__day-number">11</td>
+                                        <td class="calendar__day-number">12</td>
+                                        <td class="calendar__day-number">13</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="calendar__day-number">14</td>
+                                        <td class="calendar__day-number">15</td>
+                                        <td class="calendar__day-number">16</td>
+                                        <td class="calendar__day-number">17</td>
+                                        <td class="calendar__day-number calendar__day-number--circled calendar__day-number--circled-different">18</td>
+                                        <td class="calendar__day-number">19</td>
+                                        <td class="calendar__day-number">20</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="calendar__day-number">21</td>
+                                        <td class="calendar__day-number">22</td>
+                                        <td class="calendar__day-number">23</td>
+                                        <td class="calendar__day-number">24</td>
+                                        <td class="calendar__day-number">25</td>
+                                        <td class="calendar__day-number">26</td>
+                                        <td class="calendar__day-number">27</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="calendar__day-number">28</td>
+                                        <td class="calendar__day-number">29</td>
+                                        <td class="calendar__day-number">30</td>
+                                        <td class="calendar__day-number">31</td>
+                                        <td class="calendar__day-number"></td>
+                                        <td class="calendar__day-number"></td>
+                                        <td class="calendar__day-number"></td>
+                                    </tr>
+                                </table>
+                            </article>
+                        </div>
+                    </li>
+                </ul>
+            </div>  
         </section>
         <section class="page-main__pricing pricing">
-            <h2 class="pricing__title">Pricing Plans</h2>
-            <p class="pricing__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. 
-            </p>
-            <ul class="pricing__plans-list">
-                <li class="pricing__plans-list-item">
-                    <div class="pricing__plan-title-container">
-                        <p class="pricing__plan-title">Starter</p>
-                        <p class="pricing__plan-description">up to 3 users</p>
-                    </div>
-                    <p class="pricing__plan-cost">
-                        <span class="pricing__currency">$</span>29
-                    </p>
-                    <span class="pricing__period">per month</span>
-                    <a href="#" class="pricing__order-link">Order</a>
-                </li>
-                <li class="pricing__plans-list-item">
-                    <div class="pricing__plan-title-container">
-                        <p class="pricing__plan-title">Standard</p>
-                        <p class="pricing__plan-description">up to 20 users</p>
-                    </div>
-                    <p class="pricing__plan-cost">
-                        <span class="pricing__currency">$</span>99
-                    </p>
-                    <span class="pricing__period">per month</span>
-                    <a href="#" class="pricing__order-link">Order</a>
-                </li>
-                <li class="pricing__plans-list-item">
-                    <div class="pricing__plan-title-container">
-                        <p class="pricing__plan-title">Premium</p>
-                        <p class="pricing__plan-description">up to 200 users</p>
-                    </div>
-                    <p class="pricing__plan-cost">
-                        <span class="pricing__currency">$</span>299
-                    </p>
-                    <span class="pricing__period">per month</span>
-                    <a href="#" class="pricing__order-link">Order</a>
-                </li>
-            </ul>
+            <div class="pricing__width-container container">
+                <h2 class="pricing__title">Pricing Plans</h2>
+                <p class="pricing__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. 
+                </p>
+                <ul class="pricing__plans-list">
+                    <li class="pricing__plans-list-item">
+                        <div class="pricing__plan-title-container">
+                            <p class="pricing__plan-title">Starter</p>
+                            <p class="pricing__plan-description">up to 3 users</p>
+                        </div>
+                        <p class="pricing__plan-cost">
+                            <span class="pricing__currency">$</span>29
+                        </p>
+                        <p class="pricing__period">per month</p>
+                        <a href="#" class="pricing__order-link">Order</a>
+                    </li>
+                    <li class="pricing__plans-list-item">
+                        <div class="pricing__plan-title-container">
+                            <p class="pricing__plan-title">Standard</p>
+                            <p class="pricing__plan-description">up to 20 users</p>
+                        </div>
+                        <p class="pricing__plan-cost">
+                            <span class="pricing__currency">$</span>99
+                        </p>
+                        <p class="pricing__period">per month</p>
+                        <a href="#" class="pricing__order-link">Order</a>
+                    </li>
+                    <li class="pricing__plans-list-item">
+                        <div class="pricing__plan-title-container">
+                            <p class="pricing__plan-title">Premium</p>
+                            <p class="pricing__plan-description">up to 200 users</p>
+                        </div>
+                        <p class="pricing__plan-cost">
+                            <span class="pricing__currency">$</span>299
+                        </p>
+                        <p class="pricing__period">per month</p>
+                        <a href="#" class="pricing__order-link">Order</a>
+                    </li>
+                </ul>
+            </div>
         </section>
       </main>
       <footer class="pahe-footer">
-        <div class="pahe-footer__logo-container">
+          <div class="pahe-footer__width-container container">
             <a href="#" class="pahe-footer__logo-link" aria-label="logo-link Analytics">
-              <svg class="pahe-footer__logo-img" xmlns="http://www.w3.org/2000/svg" width="185" height="40" viewBox="0 0 185 40" fill="none">
-                  <path d="M36.5083 8.70613C32.9048 3.44887 26.8551 0 20 0C8.9543 0 0 8.9543 0 20C0 21.607 0.189533 23.1697 0.547447 24.667L10.7322 14.4822C11.7085 13.5059 13.2915 13.5059 14.2678 14.4822L22.5 22.7145L36.5083 8.70613Z" fill="#EF2A82"/>
-                  <path d="M38.8854 13.4001L24.2678 28.0178C23.2915 28.9941 21.7085 28.9941 20.7322 28.0178L12.5 19.7855L2.53418 29.7514C5.9555 35.8662 12.495 40 20 40C31.0457 40 40 31.0457 40 20C40 17.6874 39.6075 15.4664 38.8854 13.4001Z" fill="#EF2A82"/>
-                  <path d="M62.8084 25.056H57.6023L56.6931 28H52.6343L58.4141 12.2408H61.9858L67.8089 28H63.7284L62.8084 25.056ZM58.5115 22.1228H61.8992L60.2 16.6569L58.5115 22.1228Z" fill="white"/>
-                  <path d="M82.1285 28H78.3511L72.7661 18.1938V28H68.967V12.2408H72.7661L78.3402 22.047V12.2408H82.1285V28Z" fill="white"/>
-                  <path d="M93.6772 25.056H88.4711L87.5619 28H83.5031L89.2829 12.2408H92.8546L98.6777 28H94.5972L93.6772 25.056ZM89.3803 22.1228H92.7681L91.0688 16.6569L89.3803 22.1228Z" fill="white"/>
-                  <path d="M103.635 25.0776H110.248V28H99.8358V12.2408H103.635V25.0776Z" fill="white"/>
-                  <path d="M114.588 19.0813L117.489 12.2408H121.591L116.515 22.3392V28H112.662V22.3392L107.596 12.2408H111.677L114.588 19.0813Z" fill="white"/>
-                  <path d="M135.305 15.174H130.575V28H126.776V15.174H122.132V12.2408H135.305V15.174Z" fill="white"/>
-                  <path d="M140.965 28H137.177V12.2408H140.965V28Z" fill="white"/>
-                  <path d="M156.357 22.6639C156.306 23.7607 156.01 24.7312 155.469 25.5755C154.928 26.4125 154.167 27.0619 153.185 27.5237C152.211 27.9855 151.096 28.2164 149.841 28.2164C147.77 28.2164 146.139 27.5418 144.948 26.1924C143.758 24.8431 143.163 22.9381 143.163 20.4776V19.6983C143.163 18.1541 143.43 16.8048 143.964 15.6503C144.505 14.4885 145.28 13.5938 146.291 12.966C147.301 12.331 148.47 12.0135 149.797 12.0135C151.71 12.0135 153.247 12.5186 154.408 13.5288C155.57 14.5318 156.23 15.9173 156.389 17.6851H152.601C152.572 16.7254 152.33 16.0363 151.876 15.6178C151.421 15.1993 150.728 14.99 149.797 14.99C148.852 14.99 148.159 15.3436 147.719 16.0507C147.279 16.7579 147.048 17.8871 147.027 19.4385V20.5533C147.027 22.2346 147.236 23.436 147.654 24.1576C148.08 24.8792 148.809 25.24 149.841 25.24C150.714 25.24 151.381 25.0343 151.843 24.623C152.305 24.2117 152.55 23.5587 152.579 22.6639H156.357Z" fill="white"/>
-                  <path d="M166.282 23.8112C166.282 23.2556 166.083 22.8227 165.686 22.5124C165.297 22.2021 164.608 21.881 163.619 21.5491C162.631 21.2172 161.822 20.8961 161.195 20.5858C159.153 19.5828 158.132 18.2046 158.132 16.4512C158.132 15.5781 158.384 14.8096 158.889 14.1458C159.402 13.4747 160.123 12.9552 161.054 12.5872C161.985 12.212 163.031 12.0244 164.193 12.0244C165.326 12.0244 166.339 12.2264 167.234 12.6305C168.136 13.0346 168.836 13.6118 169.334 14.3623C169.832 15.1055 170.081 15.9569 170.081 16.9166H166.293C166.293 16.2744 166.094 15.7765 165.697 15.423C165.308 15.0694 164.777 14.8926 164.106 14.8926C163.428 14.8926 162.89 15.0441 162.493 15.3472C162.104 15.6431 161.909 16.0219 161.909 16.4837C161.909 16.8878 162.125 17.2558 162.558 17.5877C162.991 17.9124 163.753 18.2515 164.842 18.6051C165.932 18.9515 166.827 19.3267 167.526 19.7308C169.229 20.7121 170.081 22.065 170.081 23.7896C170.081 25.1678 169.561 26.2502 168.522 27.0367C167.483 27.8232 166.058 28.2164 164.247 28.2164C162.97 28.2164 161.812 27.9891 160.773 27.5345C159.741 27.0727 158.961 26.445 158.435 25.6512C157.915 24.8503 157.655 23.9303 157.655 22.8912H161.465C161.465 23.7355 161.682 24.3596 162.115 24.7637C162.555 25.1606 163.266 25.359 164.247 25.359C164.875 25.359 165.369 25.2255 165.73 24.9585C166.098 24.6843 166.282 24.3019 166.282 23.8112Z" fill="white"/>
-              </svg>
+                <svg class="pahe-footer__logo-img" xmlns="http://www.w3.org/2000/svg" width="138" height="30" viewBox="0 0 185 40" fill="none">
+                    <path class="pahe-footer__logo-graph" d="M36.5083 8.70613C32.9048 3.44887 26.8551 0 20 0C8.9543 0 0 8.9543 0 20C0 21.607 0.189533 23.1697 0.547447 24.667L10.7322 14.4822C11.7085 13.5059 13.2915 13.5059 14.2678 14.4822L22.5 22.7145L36.5083 8.70613Z" fill="white"/>
+                    <path class="pahe-footer__logo-graph" d="M38.8854 13.4001L24.2678 28.0178C23.2915 28.9941 21.7085 28.9941 20.7322 28.0178L12.5 19.7855L2.53418 29.7514C5.9555 35.8662 12.495 40 20 40C31.0457 40 40 31.0457 40 20C40 17.6874 39.6075 15.4664 38.8854 13.4001Z" fill="white"/>
+                    <path d="M62.8084 25.056H57.6023L56.6931 28H52.6343L58.4141 12.2408H61.9858L67.8089 28H63.7284L62.8084 25.056ZM58.5115 22.1228H61.8992L60.2 16.6569L58.5115 22.1228Z" fill="white"/>
+                    <path d="M82.1285 28H78.3511L72.7661 18.1938V28H68.967V12.2408H72.7661L78.3402 22.047V12.2408H82.1285V28Z" fill="white"/>
+                    <path d="M93.6772 25.056H88.4711L87.5619 28H83.5031L89.2829 12.2408H92.8546L98.6777 28H94.5972L93.6772 25.056ZM89.3803 22.1228H92.7681L91.0688 16.6569L89.3803 22.1228Z" fill="white"/>
+                    <path d="M103.635 25.0776H110.248V28H99.8358V12.2408H103.635V25.0776Z" fill="white"/>
+                    <path d="M114.588 19.0813L117.489 12.2408H121.591L116.515 22.3392V28H112.662V22.3392L107.596 12.2408H111.677L114.588 19.0813Z" fill="white"/>
+                    <path d="M135.305 15.174H130.575V28H126.776V15.174H122.132V12.2408H135.305V15.174Z" fill="white"/>
+                    <path d="M140.965 28H137.177V12.2408H140.965V28Z" fill="white"/>
+                    <path d="M156.357 22.6639C156.306 23.7607 156.01 24.7312 155.469 25.5755C154.928 26.4125 154.167 27.0619 153.185 27.5237C152.211 27.9855 151.096 28.2164 149.841 28.2164C147.77 28.2164 146.139 27.5418 144.948 26.1924C143.758 24.8431 143.163 22.9381 143.163 20.4776V19.6983C143.163 18.1541 143.43 16.8048 143.964 15.6503C144.505 14.4885 145.28 13.5938 146.291 12.966C147.301 12.331 148.47 12.0135 149.797 12.0135C151.71 12.0135 153.247 12.5186 154.408 13.5288C155.57 14.5318 156.23 15.9173 156.389 17.6851H152.601C152.572 16.7254 152.33 16.0363 151.876 15.6178C151.421 15.1993 150.728 14.99 149.797 14.99C148.852 14.99 148.159 15.3436 147.719 16.0507C147.279 16.7579 147.048 17.8871 147.027 19.4385V20.5533C147.027 22.2346 147.236 23.436 147.654 24.1576C148.08 24.8792 148.809 25.24 149.841 25.24C150.714 25.24 151.381 25.0343 151.843 24.623C152.305 24.2117 152.55 23.5587 152.579 22.6639H156.357Z" fill="white"/>
+                    <path d="M166.282 23.8112C166.282 23.2556 166.083 22.8227 165.686 22.5124C165.297 22.2021 164.608 21.881 163.619 21.5491C162.631 21.2172 161.822 20.8961 161.195 20.5858C159.153 19.5828 158.132 18.2046 158.132 16.4512C158.132 15.5781 158.384 14.8096 158.889 14.1458C159.402 13.4747 160.123 12.9552 161.054 12.5872C161.985 12.212 163.031 12.0244 164.193 12.0244C165.326 12.0244 166.339 12.2264 167.234 12.6305C168.136 13.0346 168.836 13.6118 169.334 14.3623C169.832 15.1055 170.081 15.9569 170.081 16.9166H166.293C166.293 16.2744 166.094 15.7765 165.697 15.423C165.308 15.0694 164.777 14.8926 164.106 14.8926C163.428 14.8926 162.89 15.0441 162.493 15.3472C162.104 15.6431 161.909 16.0219 161.909 16.4837C161.909 16.8878 162.125 17.2558 162.558 17.5877C162.991 17.9124 163.753 18.2515 164.842 18.6051C165.932 18.9515 166.827 19.3267 167.526 19.7308C169.229 20.7121 170.081 22.065 170.081 23.7896C170.081 25.1678 169.561 26.2502 168.522 27.0367C167.483 27.8232 166.058 28.2164 164.247 28.2164C162.97 28.2164 161.812 27.9891 160.773 27.5345C159.741 27.0727 158.961 26.445 158.435 25.6512C157.915 24.8503 157.655 23.9303 157.655 22.8912H161.465C161.465 23.7355 161.682 24.3596 162.115 24.7637C162.555 25.1606 163.266 25.359 164.247 25.359C164.875 25.359 165.369 25.2255 165.73 24.9585C166.098 24.6843 166.282 24.3019 166.282 23.8112Z" fill="white"/>
+                </svg>
             </a>
-        </div>
-        <ul class="pahe-footer__link-list">
-            <li class="pahe-footer__link-list-item">
-              <a href="#" class="pahe-footer__link">
-                Products
-              </a>
-            </li>
-            <li class="pahe-footer__link-list-item">
-              <a href="#" class="pahe-footer__link">
-                Pricing
-              </a>
-            </li>
-            <li class="pahe-footer__link-list-item">
-              <a href="#" class="pahe-footer__link">
-                FAQ
-              </a>
-            </li>
-            <li class="pahe-footer__link-list-item">
-              <a href="#" class="pahe-footer__link">
-                Blog
-              </a>
-            </li>
-          </ul>
-          <ul class="pahe-footer__nets-list">
-            <li class="pahe-footer__nets-list-item">
-                <a href="#" class="pahe-footer__net-link" aria-label="facebook icon-link">
-                    <svg class="pahe-footer__net-icon">
-                        <use xlink:href="img/sprite.svg#facebook"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="pahe-footer__nets-list-item">
-                <a href="#" class="pahe-footer__net-link" aria-label="twitter icon-link">
-                    <svg class="pahe-footer__net-icon">
-                        <use xlink:href="img/sprite.svg#twitter"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="pahe-footer__nets-list-item">
-                <a href="#" class="pahe-footer__net-link" aria-label="instagram icon-link">
-                    <svg class="pahe-footer__net-icon">
-                        <use xlink:href="img/sprite.svg#instagram"></use>
-                    </svg>
-                </a>
-            </li>
-          </ul>
+            <ul class="pahe-footer__navigation-list navigation-list">
+                <li class="navigation-list__link-list-item">
+                  <a href="#" class="navigation-list__link">
+                    Products
+                  </a>
+                </li>
+                <li class="navigation-list__link-list-item">
+                  <a href="#" class="navigation-list__link">
+                    Pricing
+                  </a>
+                </li>
+                <li class="navigation-list__link-list-item">
+                  <a href="#" class="navigation-list__link">
+                    FAQ
+                  </a>
+                </li>
+                <li class="navigation-list__link-list-item">
+                  <a href="#" class="navigation-list__link">
+                    Blog
+                  </a>
+                </li>
+              </ul>
+              <ul class="pahe-footer__nets-list">
+                <li class="pahe-footer__nets-list-item">
+                    <a href="#" class="pahe-footer__net-link" aria-label="facebook icon-link">
+                        <svg class="pahe-footer__net-icon" width="10" height="20" fill="#8794BA">
+                            <use href="#facebook-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="pahe-footer__nets-list-item">
+                    <a href="#" class="pahe-footer__net-link" aria-label="twitter icon-link">
+                        <svg class="pahe-footer__net-icon" width="25" height="20" fill="#8794BA">
+                            <use href="#twitter-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="pahe-footer__nets-list-item">
+                    <a href="#" class="pahe-footer__net-link" aria-label="instagram icon-link">
+                        <svg class="pahe-footer__net-icon" width="20" height="20" fill="#8794BA">
+                            <use href="#instagram-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+              </ul>
+          </div>
       </footer>
   </body>
 </html>

@@ -24,35 +24,6 @@
 }
 
 .main-nav__link-list {
-    min-width: 352px;
-    min-height: 40px;
-    display: flex;
-    ;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.main-nav__link-list-item {
-    flex-grow: 1;
-}
-
-.main-nav__link {
-    display: block;
     font-size: 16px;
     line-height: 19px;
-    color: var(--text-secondary);
-    text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    text-align: center;
-
-    &:hover {
-        color: var(--red);
-    }
-
-    &:active {
-        color: var(--white);
-    }
 }

@@ -1,17 +1,10 @@
-$min-bogy: 900px;
+$min-bogy: 942px;
 
 @mixin button-fix() {
   margin: 0;
   padding: 0;
   border: none;
   background-color: transparent;
-}
-
-@mixin input-cut() {
-  position: absolute;
-  --webkit-appearance: none;
-  --moz-appearance: none;
-  appearance: none;
 }
 
 .visually-hidden {
@@ -33,10 +26,6 @@ img {
   height: auto;
 }
 
-// html {
-//   overflow-x: hidden;
-// }
-
 ul {
   margin: 0;
   padding: 0;
@@ -46,26 +35,9 @@ ul {
 .container {
   box-sizing: border-box;
   width: 100%;
-  max-width: 1150px;
+  max-width: 1210px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
-
-// .age-hexagon__hex-text {
-//   display: grid;
-//   grid-template-columns: 42px 42px 42px;
-//   row-gap: 10px;
-// }
-
-// .age-hexagon__hex-age {
-//   width: 30px;
-// }
-
-// .lines-graph__ages-container {
-//   background-color: cadetblue;
-//   display: flex;
-//   ;
-//   justify-content: space-between;
-// }

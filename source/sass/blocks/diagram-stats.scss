@@ -1,6 +1,6 @@
 .diagram-stats {
     box-sizing: border-box;
-    width: 17.5%;
+    width: 20%;
     height: 100%;
     padding-top: 25px;
     padding-bottom: 20px;
@@ -18,4 +18,8 @@
     &--different {
         color: var(--red);
     }
+}
+
+.diagram-stats__option {
+    font-size: 1.5em;
 }

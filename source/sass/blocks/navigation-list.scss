@@ -1,0 +1,30 @@
+.navigation-list {
+    min-width: 352px;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.navigation-list__link-list-item {
+    flex-grow: 1;
+}
+
+.navigation-list__link {
+    display: block;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+        color: var(--red);
+    }
+
+    &:active {
+        color: var(--white);
+    }
+}

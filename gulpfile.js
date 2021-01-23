@@ -69,7 +69,7 @@ function images() {
 exports.images = images;
 
 function sprite() {
-  return src("source/img/**/icon-*.svg")
+  return src("source/img/**/*-icon.svg")
   .pipe(svgstore())
   .pipe(rename("sprite.svg"))
   .pipe(dest("source/img"))

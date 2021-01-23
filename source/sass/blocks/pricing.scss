@@ -1,0 +1,180 @@
+.pricing {
+    padding-top: 228px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: var(--blue);
+    color: var(--white);
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        box-sizing: border-box;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 228px solid var(--white);
+        border-right: 100vw solid transparent;
+        z-index: 2;
+
+        @media (max-width: $min-bogy) {
+            border-right-width: 942px;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        box-sizing: border-box;
+        left: 0px;
+        top: 3px;
+        width: 0;
+        height: 0;
+        border-top: 235px solid var(--red);
+        border-right: 103vw solid transparent;
+        z-index: 1;
+
+        @media (max-width: $min-bogy) {
+            left: -3px;
+            top: 0;
+            border-right-width: 986px;
+            border-top-width: 240px;
+        }
+    }
+}
+
+.pricing__width-container {
+    position: relative;
+    z-index: 1;
+}
+
+.pricing__title {
+    padding-top: 43px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.pricing__description {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--text-secondary);
+    max-width: 692px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.pricing__plans-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pricing__plans-list-item {
+    background-color: var(--dark-blue-alpha);
+    border-radius: 30px;
+    box-shadow: 0px 18px 50px -15px var(--shadow);
+    max-width: 340px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    margin-right: 20px;
+    padding: 50px 70px 75px 70px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:nth-child(2n) {
+        background-color: var(--white);
+        color: var(--blue);
+    }
+}
+
+.pricing__plan-title-container {
+    box-sizing: border-box;
+    padding-bottom: 37px;
+    border-bottom: 1px solid var(--border-blue);
+    margin-bottom: 27px;
+}
+
+.pricing__plan-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.pricing__plan-description {
+    margin: 0;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.pricing__plan-cost {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.pricing__period {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--text-secondary);
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.pricing__order-link {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid var(--border-blue);
+    border-radius: 68px;
+    color: var(--white);
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 19px;
+
+    &:hover {
+        background-color: var(--red);
+        border-color: var(--red);
+    }
+
+    &:active {
+        background-color: transparent;
+    }
+
+    .pricing__plans-list-item:nth-child(2n) & {
+        background-color: var(--red);
+        border-color: var(--red);
+        color: var(--white);
+
+        &:hover {
+            background-color: transparent;
+            border-color: var(--border-blue);
+            color: var(--blue);
+        }
+
+        &:active {
+            background-color: transparent;
+            border-color: var(--red);
+            color: var(--red);
+        }
+    }
+}
